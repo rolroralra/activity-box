@@ -13,6 +13,6 @@ jobs:
       - uses: rolroralra/activity-box@master
         env:
           GH_PAT: ${{ secrets.GH_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           GH_USERNAME: rolroralra
           GIST_ID: cd3da67e360ba543331c6183c56b4564
